@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentaje</title>
+    <script src="./JS/Ejercicio5.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>Ejercicio 5</h1>
+    <form name="formulario5" method="post" id="formulario5" onsubmit="return calcularPorcentaje(this);">
+                <label for="hombre">
+                    No. Hombres
+                    <br>
+                    <input type="number" name="hombre" id="hombre" placeholder="Por favor ingrese la cantidad de hombres">
+                </label>
+                <br>
+
+                <label for="mujer">
+                    No. Mujeres
+                    <br>
+                    <input type="number" name="mujer" id="mujer" placeholder="Por favor ingrese la cantidad de mujeres">
+                </label>
+                <br>
+
+                <input type="submit" name="enviar" id="enviar" value="enviar">
+                <input type="reset" name="borrar" id="borrar" value="borrar">
+
+            </form>
+            <h2 id = "resultado"></h2>
+            <a href="./menu.html">volver al menu</a>
+</body>
+</html>

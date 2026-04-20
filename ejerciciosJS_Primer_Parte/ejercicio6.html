@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad</title>
+    <script src="./JS/Ejercicio6.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>Ejercicio 6</h1>
+    <form name="formulario6" method="post" id="formulario6" onsubmit="return calcularEdad(this);">
+                <label for="fechaNacimiento">
+                    ingrese su fecha de nacimiento
+                    <br>
+                    <input type="date" name="fechaNacimiento" id="fechaNacimiento" required>
+                </label>
+                <br>
+
+                <input type="submit" name="enviar" id="enviar" value="calcular edad">
+                <input type="reset" name="borrar" id="borrar" value="borrar">
+
+            </form>
+            <h2 id = "resultado"></h2>
+            <a href="./menu.html">volver al menu</a>
+</body>
+</html>

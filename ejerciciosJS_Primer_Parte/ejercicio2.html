@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo + comisiones</title>
+    <script src="./JS/Ejercicio2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+    <form name="formulario2" method="post" id="formulario2" onsubmit="return calcularSueldo(this);">
+                <label for="sueldo">
+                    Sueldo del empleado
+                    <br>
+                    (minimo $9,582.47)
+                    <br>
+                    <input type="number" name="sueldo" id="sueldo" placeholder="Por favor ingrese el sueldo base">
+                </label>
+                <br>
+
+                <label for="venta1">
+                    Ventas (minimo $500 y maximo $50000)
+                    <br>
+                    <input type="number" name="venta1" id="venta1" placeholder="Por favor ingrese la primer venta">
+                </label>
+                <br>
+
+                <label for="venta2">
+                    
+                    <br>
+                    <input type="number" name="venta2" id="venta2" placeholder="Por favor ingrese la segunda venta">
+                </label>
+                <br>
+
+                <label for="venta3">
+                    
+                    <br>
+                    <input type="number" name="venta3" id="venta3" placeholder="Por favor ingrese la tercer venta">
+                </label>
+                <br>
+
+                <input type="submit" name="enviar" id="enviar" value="enviar">
+                <input type="reset" name="borrar" id="borrar" value="borrar">
+
+            </form>
+            <h2 id = "resultado"></h2>
+            <a href="./menu.html">volver al menu</a>
+</body>
+</html>

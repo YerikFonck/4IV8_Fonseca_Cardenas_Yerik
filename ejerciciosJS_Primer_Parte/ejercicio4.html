@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <script src="./JS/Ejercicio4.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>Ejercicio 4</h1>
+    <form name="formulario4" method="post" id="formulario4" onsubmit="return calcularPromedio(this);">
+                <label for="cal1">
+                    Calificaciones departamentales 55%
+                    <br>
+                    <input type="number" step="0.1" name="cal1" id="cal1" placeholder="Por favor ingrese la primera calificacion">
+                </label>
+                <br>
+
+                <label for="cal2">
+                    <br>
+                    <input type="number" step="0.1" name="cal2" id="cal2" placeholder="Por favor ingrese la segunda calificacion">
+                </label>
+                <br>
+
+                <label for="cal3">
+                    
+                    <br>
+                    <input type="number" step="0.1" name="cal3" id="cal3" placeholder="Por favor ingrese la tercera calificacion">
+                </label>
+                <br>
+
+                <label for="examen">
+                    Examen Final 35%
+                    <br>
+                    <input type="number" step="0.1" name="examen" id="examen" placeholder="Por favor ingrese su calificacion">
+                </label>
+                <br>
+
+                <label for="TrabajoFinal">
+                    Trabajo final 15%
+                    <br>
+                    <input type="number" step="0.1" name="TrabajoFinal" id="TrabajoFinal" placeholder="Por favor ingrese su calificacion">
+                </label>
+                <br>
+
+                <input type="submit" name="enviar" id="enviar" value="enviar">
+                <input type="reset" name="borrar" id="borrar" value="borrar">
+
+            </form>
+            <h2 id = "resultado"></h2>
+            <a href="./menu.html">volver al menu</a>
+</body>
+</html>
