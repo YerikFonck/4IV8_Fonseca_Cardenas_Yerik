@@ -1,0 +1,26 @@
+{
+  "name": "animecrud",
+  "version": "1.0.0",
+  "description": "AnimeCRUD",
+  "homepage": "https://github.com/YerikFonck/4IV8_Fonseca_Cardenas_Yerik#readme",
+  "bugs": {
+    "url": "https://github.com/YerikFonck/4IV8_Fonseca_Cardenas_Yerik/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YerikFonck/4IV8_Fonseca_Cardenas_Yerik.git"
+  },
+  "license": "ISC",
+  "author": "Fonseca Cardenas Yerik",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "mysql2": "^3.22.5"
+  }
+}

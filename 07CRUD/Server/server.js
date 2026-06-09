@@ -26,9 +26,9 @@ const db = pool.promise();
 app.use(express.static(path.join(__dirname, 'public')));
 
 /* peticiones LOG:
-hacemos un middleware para imprmir en consola cada petición */
+hacemos un middleware para imprimir en consola cada petición */
 app.use((req, res, next) => {
-    console.log([${new Date().toLocaleTimeString()}] ${req.method} ${req.path});
+    console.log(`[${new Date().toLocaleTimeString()}] ${req.method} ${req.path}`);
     next();
 });
 
