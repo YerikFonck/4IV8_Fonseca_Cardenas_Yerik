@@ -38,7 +38,7 @@ header p{
    TABS
 ========================================== */
 .tabs{
-    display:flex;
+    display:block;
     justify-content:center;
     gap:10px;
     flex-wrap:wrap;

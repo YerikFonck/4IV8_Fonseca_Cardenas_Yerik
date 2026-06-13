@@ -1,15 +1,15 @@
 
 :root {
-    --color-primario: #2563eb;
-    --color-primario-hover: #1d4ed8;
-    --color-peligro: #dc2626;
-    --color-peligro-hover: #b91c1c;
-    --color-exito: #16a34a;
-    --color-fondo: #f8fafc;
+    --color-primario: #C82828;
+    --color-primario-hover: #4D1111;
+    --color-peligro: #4D1111;
+    --color-peligro-hover: #2F1C1C;
+    --color-exito: #C82828;
+    --color-fondo: #D9D9D9;
     --color-tarjeta: #ffffff;
-    --color-borde: #e2e8f0;
-    --color-texto: #1e293b;
-    --color-texto-claro: #64748b;
+    --color-borde: #D9D9D9;
+    --color-texto: #2F1C1C;
+    --color-texto-claro: #4D1111;
     --radio-borde: 8px;
     --sombra: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -25,7 +25,7 @@ body {
 
 /* ---- Header con pestañas ---- */
 header {
-    background: linear-gradient(135deg, #0f172a, #1e40af);
+    background: linear-gradient(135deg, #4D1111, #C82828);
     color: white;
     padding: 1.5rem 1.5rem 0;
     text-align: center;

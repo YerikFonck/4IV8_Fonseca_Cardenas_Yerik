@@ -564,4 +564,6 @@ document.addEventListener('DOMContentLoaded', () => {
     cargarGeneros();
     cargarAnimes();
     cargarGaleria();
+    cargarSelectEstudios();
+    cargarSelectGeneros();
 });
